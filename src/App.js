@@ -1,8 +1,8 @@
 // src/App.js
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import MarkdownEditor from './components/MarkdownEditor';
-import HtmlPreview from './components/HtmlPreview';
+import MarkdownEditor from './components/md.editor';
+import HtmlPreview from './components/html.preview';
 import './App.css';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     useEffect(() => {
         const fetchHTML = async () => {
             if (markdown) {
-                const response = await axios.post('/text/path/convert', { markdown });
+                const response = await axios.post('http://localhost:5001/text/path/convert', { markdown });
                 setHtml(response.data.html);
             } else {
                 setHtml('');
