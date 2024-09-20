@@ -12,7 +12,7 @@ function App() {
     useEffect(() => {
         const fetchHTML = async () => {
             if (markdown) {
-                const response = await axios.post('http://localhost:5001/text/path/convert', { markdown });
+                const response = await axios.post(`${process.env.REACT_APP_SERVER}/text/path/convert`, { markdown });
                 setHtml(response.data.html);
             } else {
                 setHtml('');
