@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/md-texteditor-front-end/static/css/main.37ca3db3.css",
-    "main.js": "/md-texteditor-front-end/static/js/main.9664a702.js",
+    "main.js": "/md-texteditor-front-end/static/js/main.d2e5e8bd.js",
     "index.html": "/md-texteditor-front-end/index.html",
     "main.37ca3db3.css.map": "/md-texteditor-front-end/static/css/main.37ca3db3.css.map",
-    "main.9664a702.js.map": "/md-texteditor-front-end/static/js/main.9664a702.js.map"
+    "main.d2e5e8bd.js.map": "/md-texteditor-front-end/static/js/main.d2e5e8bd.js.map"
   },
   "entrypoints": [
     "static/css/main.37ca3db3.css",
-    "static/js/main.9664a702.js"
+    "static/js/main.d2e5e8bd.js"
   ]
 }
